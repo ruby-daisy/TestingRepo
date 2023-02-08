@@ -1,0 +1,40 @@
+master branch
+-------------
+$ git init
+$ git status
+$ git add .
+$ git status
+$ git commit -m "First Commit Feb 8"
+$ git remote add origin "https://github.com/ruby-daisy/QA_Repo.git"
+$ git push -f origin master
+
+new branch qa
+-------------
+$ git checkout -b qa
+$ git status
+$ git init
+$ git status
+$ git commit -m "new branch qa"
+$ git push -f origin qa
+
+
+git commands
+------------
+pwd - 
+cd
+ls
+init
+status
+config
+commit
+log
+commit -a -m "" -> add all files and commit
+branch -> list of branches
+branch br1 -> create branch br1
+checkout -b br2 ->create and move to br2
+ls-files ->list of files for staging
+push -f
+
+
+
+
